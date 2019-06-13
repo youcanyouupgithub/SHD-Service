@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Abp" Version="4.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SHD.DomainEntity\SHD.DomainEntity.csproj" />
+    <ProjectReference Include="..\SHD.DomainService.Common\SHD.DomainService.Common.csproj" />
+  </ItemGroup>
+
+</Project>

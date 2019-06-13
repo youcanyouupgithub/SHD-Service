@@ -21,6 +21,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.2.1" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\SHD.DomainEntity\SHD.DomainEntity.csproj" />
     <ProjectReference Include="..\SHD.Core\SHD.Core.csproj" />
   </ItemGroup>
 </Project>

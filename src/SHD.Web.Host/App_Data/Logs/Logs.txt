@@ -2392,3 +2392,68 @@ DEBUG 2019-06-12 10:30:24,390 [17   ] Abp.Modules.AbpModuleManager             -
 DEBUG 2019-06-12 10:30:24,391 [17   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
 DEBUG 2019-06-12 10:30:24,392 [17   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
 DEBUG 2019-06-12 10:30:24,392 [17   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2019-06-12 18:50:18,156 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-06-12 18:50:18,215 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-06-12 18:50:18,232 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SHD.Web.Host.Startup.SHDWebHostModule, SHD.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-12 18:50:18,235 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SHD.SHDWebCoreModule, SHD.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-12 18:50:18,235 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SHD.SHDApplicationModule, SHD.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-12 18:50:18,236 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SHD.SHDCoreModule, SHD.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-12 18:50:18,236 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-12 18:50:18,236 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-12 18:50:18,236 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-12 18:50:18,237 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-12 18:50:18,237 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SHD.EntityFrameworkCore.SHDEntityFrameworkModule, SHD.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-12 18:50:18,238 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-12 18:50:18,238 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-12 18:50:18,238 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-12 18:50:18,238 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-12 18:50:18,238 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-12 18:50:18,239 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-12 18:50:18,242 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-06-12 18:50:18,302 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-12 18:50:18,302 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-12 18:50:18,302 [1    ] o.Configuration.LanguageManagementConfig - Converted SHD (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-12 18:50:18,302 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-12 18:50:18,710 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: SHD.EntityFrameworkCore.SHDDbContext, SHD.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-12 18:50:19,071 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-06-12 18:50:19,137 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-06-12 18:50:19,175 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-06-12 18:50:19,189 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SHD
+DEBUG 2019-06-12 18:50:19,219 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-06-12 18:50:19,250 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-06-12 18:50:19,298 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-06-12 18:50:19,298 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SHD.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-06-12 18:50:19,305 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SHD.Users.Dto.CreateUserDto
+DEBUG 2019-06-12 18:50:19,305 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SHD.Users.Dto.UserDto
+DEBUG 2019-06-12 18:50:19,306 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SHD.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-06-12 18:50:19,306 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SHD.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-06-12 18:50:19,306 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SHD.Roles.Dto.CreateRoleDto
+DEBUG 2019-06-12 18:50:19,306 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SHD.Roles.Dto.PermissionDto
+DEBUG 2019-06-12 18:50:19,306 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SHD.Roles.Dto.RoleDto
+DEBUG 2019-06-12 18:50:19,306 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SHD.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-06-12 18:50:19,307 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SHD.MultiTenancy.Dto.TenantDto
+INFO  2019-06-12 18:50:36,569 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-06-12 18:50:37,765 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action SHD.Web.Host.Controllers.HomeController.Index (SHD.Web.Host)
+INFO  2019-06-12 18:50:38,135 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SHD.Web.Host.Controllers.HomeController.Index (SHD.Web.Host) - Validation state: Valid
+INFO  2019-06-12 18:50:38,139 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method SHD.Web.Host.Controllers.HomeController.Index (SHD.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 1.9977ms.
+INFO  2019-06-12 18:50:38,413 [12   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-06-12 18:50:38,427 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SHD.Web.Host.Controllers.HomeController.Index (SHD.Web.Host) in 657.7356ms
+INFO  2019-06-12 18:50:38,502 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1932.2857ms 302 
+INFO  2019-06-12 18:50:38,511 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-06-12 18:50:38,567 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 55.5279ms 200 text/html
+INFO  2019-06-12 18:50:38,588 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-06-12 18:50:38,600 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-06-12 18:50:38,601 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-06-12 18:50:38,622 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2019-06-12 18:50:38,622 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2019-06-12 18:50:38,622 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2019-06-12 18:50:38,625 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 24.9984ms 304 application/javascript
+INFO  2019-06-12 18:50:38,625 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 37.1549ms 304 text/css
+INFO  2019-06-12 18:50:38,625 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 24.6335ms 304 application/javascript
+INFO  2019-06-12 18:50:38,928 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-06-12 18:50:39,058 [9    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-06-12 18:50:39,451 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 523.079ms 200 application/json;charset=utf-8
+DEBUG 2019-06-12 18:54:26,709 [23   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2019-06-12 18:54:26,711 [23   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-06-12 18:54:26,712 [23   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-06-12 18:54:26,712 [23   ] Abp.Modules.AbpModuleManager             - Shutting down completed.

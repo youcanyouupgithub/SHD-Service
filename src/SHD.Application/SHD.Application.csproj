@@ -11,6 +11,8 @@
     <RootNamespace>SHD</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\SHD.DomainService.Common\SHD.DomainService.Common.csproj" />
+    <ProjectReference Include="..\..\SHD.Domain\SHD.Domain.csproj" />
     <ProjectReference Include="..\SHD.Core\SHD.Core.csproj" />
   </ItemGroup>
 </Project>

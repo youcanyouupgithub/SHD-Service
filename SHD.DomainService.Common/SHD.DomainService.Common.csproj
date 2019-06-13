@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Abp" Version="4.6.0" />
+    <PackageReference Include="Abp.Quartz" Version="4.6.0" />
+    <PackageReference Include="Abp.ZeroCore.EntityFrameworkCore" Version="4.6.0" />
+    <PackageReference Include="App.Metrics.Core" Version="3.1.0" />
+    <PackageReference Include="Castle.Windsor.MsDependencyInjection" Version="3.3.1" />
+  </ItemGroup>
+
+</Project>
